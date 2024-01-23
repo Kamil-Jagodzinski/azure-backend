@@ -1,0 +1,10 @@
+com\githubapi\controller\DatabaseController.class
+com\githubapi\models\Repository.class
+com\githubapi\models\UserShort.class
+com\githubapi\service\GitHubService.class
+com\githubapi\GithubApiApplication.class
+com\githubapi\controller\GitHubProxyController.class
+com\githubapi\service\DatabaseService.class
+com\githubapi\models\GitHubUser.class
+com\githubapi\models\LoginResponse.class
+com\githubapi\models\User.class
