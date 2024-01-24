@@ -2178,3 +2178,25 @@ com.microsoft.sqlserver.jdbc.SQLServerException: Cannot insert explicit value fo
 2024-01-23 21:59:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-01-23 21:59:14 - Initializing Servlet 'dispatcherServlet'
 2024-01-23 21:59:14 - Completed initialization in 1 ms
+2024-01-23 23:42:49 - Starting GithubApiApplication using Java 17.0.8 with PID 26868 (C:\Users\Kamil\Desktop\Projects\backend-githubAPI\target\classes started by Kamil in C:\Users\Kamil\Desktop\Projects\backend-githubAPI)
+2024-01-23 23:42:49 - No active profile set, falling back to 1 default profile: "default"
+2024-01-23 23:42:49 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-23 23:42:49 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-23 23:42:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-23 23:42:50 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-01-23 23:42:50 - Tomcat initialized with port(s): 8080 (http)
+2024-01-23 23:42:50 - Starting service [Tomcat]
+2024-01-23 23:42:50 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-01-23 23:42:50 - Initializing Spring embedded WebApplicationContext
+2024-01-23 23:42:50 - Root WebApplicationContext: initialization completed in 1098 ms
+2024-01-23 23:42:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-23 23:42:51 - HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-01-23 23:42:51 - HikariPool-1 - Starting...
+2024-01-23 23:42:52 - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 4b1dec11-7e9c-4cf1-92d1-02893b813c82
+2024-01-23 23:42:52 - HikariPool-1 - Start completed.
+2024-01-23 23:42:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 23:42:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-23 23:42:53 - Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2024-01-23 23:42:53 - LiveReload server is running on port 35729
+2024-01-23 23:42:53 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 23:42:53 - Started GithubApiApplication in 3.779 seconds (process running for 4.259)
