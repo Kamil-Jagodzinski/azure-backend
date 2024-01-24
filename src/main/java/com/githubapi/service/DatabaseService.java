@@ -51,10 +51,10 @@ public class DatabaseService {
     }
 
     public List<UserShort> getFollowingUsers(int userId) {
-        String query = "SELECT \"login\", \"url\", \"avatar\" FROM [dbo].[followers] WHERE \"id\" = ?";
+        String query = "SELECT \"login\", \"url\", \"avatar\" FROM [dbo].[followers] WHERE \"user_id\" = ?";
         return jdbcTemplate.query(query, (rs, rowNum) -> {
             UserShort userShort = new UserShort();
-            userShort.setLogin(rs.getString("name"));
+            userShort.setLogin(rs.getString("login"));
             userShort.setUrl(rs.getString("url"));
             userShort.setAvatar(rs.getString("avatar"));
             return userShort;
